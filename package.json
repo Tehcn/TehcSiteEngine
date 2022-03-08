@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Website building engine to create dynamic pages",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "nodemon test/test.js"
   },
