@@ -4,7 +4,7 @@
   "description": "Website building engine to create dynamic pages",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "nodemon test/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Tehcn/TehcSiteEngine/issues"
   },
-  "homepage": "https://github.com/Tehcn/TehcSiteEngine#readme"
+  "homepage": "https://github.com/Tehcn/TehcSiteEngine#readme",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
 }
